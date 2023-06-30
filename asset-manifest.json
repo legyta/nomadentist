@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a2c0946.css",
+    "main.js": "/static/js/main.af530807.js",
+    "static/js/787.c00c2b89.chunk.js": "/static/js/787.c00c2b89.chunk.js",
+    "static/media/dentist-van.jpg": "/static/media/dentist-van.eb7a026d4218c823bb3a.jpg",
+    "static/media/logoPhone.png": "/static/media/logoPhone.0c8435fcd7f64c59ac9a.png",
+    "static/media/dentist.jpg": "/static/media/dentist.cd388e804ff4995deee2.jpg",
+    "static/media/wave.png": "/static/media/wave.21aec2b8733b86afc857.png",
+    "static/media/ig.png": "/static/media/ig.fb87b2d77b0ba3a97da7.png",
+    "static/media/mail.svg": "/static/media/mail.d41d4813359700e9686e7e9361e4b24c.svg",
+    "index.html": "/index.html",
+    "main.5a2c0946.css.map": "/static/css/main.5a2c0946.css.map",
+    "main.af530807.js.map": "/static/js/main.af530807.js.map",
+    "787.c00c2b89.chunk.js.map": "/static/js/787.c00c2b89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a2c0946.css",
+    "static/js/main.af530807.js"
+  ]
+}
