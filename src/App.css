@@ -3,36 +3,162 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  width: 60%;
+  height: 60%;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #F3EAE1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.wave{
+  background-image: url("./img/wave.png"); 
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+ .title{
+  color: #B68D40;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+  .list {
+  color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: baseline;
+  list-style: circle;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.what-i-do{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ .dentist   {
+  margin-top:20px;
+  height: 80%;
+  width: 90%;
+}
+
+.dentistVan   {
+  margin-top:1px;
+  height: 170%;
+  width: 90%;
+}
+
+.appointment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header .list li {
+  margin: 8px 0px;
+}
+
+.slogan-text {
+margin: 60px 0px 40px 0px
+}
+
+p{
+  font-size: 22px;
+}
+
+h1 {
+  color: #B68D40;
+}
+
+button{
+  background-color: #F3EAE1; 
+  border: #B68D40;  
+  border-style: solid;
+  color: #1c1c1c;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+button:hover{
+  background-color: #B68D40;
+  border: #F3EAE1;
+  border-style: solid;
+}
+
+.bye{
+  margin: 60px 10px 40px 10px
+}
+
+footer{
+  height: 60px;
+  background-color: #F3EAE1;
+}
+
+.ig-logo {
+  height: 100%;
+  margin-right: 20px;
+}
+
+.mail-logo{
+  height: 100%;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
+  .dentist {
+    height: 40%;
+    width: 40%;
   }
 }
+
+@media screen and (min-width: 1023px) and (max-width: 1025px) {
+  .dentist {
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 768px) {
+  .dentist {
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 733px) and (max-width: 736px) {
+  .dentist {
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 683px) and (max-width: 685px) {
+  .dentist {
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 666px) and (max-width: 668px) {
+  .dentist {
+    height: 40%;
+    width: 40%;
+  }
+}
+
