@@ -21,6 +21,8 @@ function App() {
             </p>
             <img src={dentist} className="dentist" alt="logo" />
           </div>
+        </div>
+        <div className="wave">
           <div className="what-i-do">
             <h1 className="title">WHAT I DO </h1>
             <ul className="list">
