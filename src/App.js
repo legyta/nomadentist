@@ -41,6 +41,7 @@ function App() {
             <a
               href="https://calendly.com/nomadentist/appointment"
               target="_blank"
+              rel="noreferrer"
             >
               <button>Book an appointment</button>
             </a>
@@ -52,10 +53,14 @@ function App() {
         </div>
       </div>
       <footer className="footer">
-        <a href="https://instagram.com/gianni.schultz" target="_blank">
+        <a
+          href="https://instagram.com/gianni.schultz"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src={ig} className="ig-logo" alt="logo"></img>
         </a>
-        <a href="mailto:docfailla@gmail.com" target="_blank">
+        <a href="mailto:docfailla@gmail.com" target="_blank" rel="noreferrer">
           <img src={mail} className="mail-logo" alt="logo"></img>
         </a>
       </footer>
