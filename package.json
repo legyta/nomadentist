@@ -2,7 +2,6 @@
   "name": "nomadentist",
   "version": "0.1.0",
   "engines": {
-    "node": "18.16.0",
     "yarn": "1.x"
   },
   "private": true,
@@ -11,6 +10,7 @@
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
     "gh-pages": "^5.0.0",
+    "node": "^18.16.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
