@@ -1,8 +1,7 @@
-## Landing page for the Nomadentist.com project
+Landing page for the Nomadentist project, the site is live at www.nomadentist.com. 
 
-## Site is live at www.nomadentist.com
 
-This project was bootstrapped with React 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -15,3 +14,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
