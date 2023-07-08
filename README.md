@@ -1,6 +1,6 @@
-# Landing page for the Nomadentist.com project
+## Landing page for the Nomadentist.com project
 
-# Site is live at www.nomadentist.com
+## Site is live at www.nomadentist.com
 
 This project was bootstrapped with React 
 
