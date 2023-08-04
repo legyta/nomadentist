@@ -1,0 +1,152 @@
+.teeth-img{
+    width: 2%;
+}
+
+.cookies-container{
+    background-color: #F3EAE1;
+    border: solid;
+    border-color: #B68D40;
+    padding: 10px;
+    font-size: .6rem;
+    animation-name: cookies;
+    animation-duration: 3s;
+    margin: 0px 20px;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes cookies {
+ 100% {
+      transform: translateY(-60px);
+    }
+  }
+
+.cookies-button{ 
+    margin: 5px;
+    font-size: .9rem;
+    padding: 7px;
+}
+
+.teeth-img {
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+
+@keyframes spin {
+   100% {
+    transform: rotate(0deg);
+   }
+   50% {
+    transform: rotate(360deg);
+   }
+}
+
+.cookie-img{
+    width: 2%;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 414px) {
+    @keyframes cookies {
+        100% {
+             transform: translateY(-10px);
+           }
+         }
+
+.cookies-container{
+        position: fixed; 
+        bottom:0%;
+}
+
+.teeth-img{
+    width: 6%;
+}
+
+.cookie-img{
+    width: 6%;
+}
+
+.cookies-container{
+    font-size: .5rem;
+}
+
+.cookies-button{ 
+    font-size: .8rem;
+}
+}
+
+@media screen and (min-width: 667px) and (max-width: 768px) {
+    .teeth-img{
+        width: 4%;
+    }
+    .cookie-img{
+        width: 4%;
+    }
+    
+    .cookies-container{
+        font-size: .5rem;
+    }
+    
+    .cookies-button{ 
+        font-size: .8rem;
+    }
+}
+
+/* @media screen and (min-width: 1024px) and (max-width: 1024px) {
+    .cookies-container{
+        position: fixed; 
+        bottom:0%;
+}
+
+    @keyframes cookies {
+        100% {
+             transform: translateY(-10px);
+           }
+         }
+    } */
+
+@media screen and (min-width: 768px) and (max-width: 769px) {
+    .cookies-container{
+        position: fixed; 
+        bottom:0%;
+}
+
+    @keyframes cookies {
+        100% {
+             transform: translateY(-10px);
+           }
+         }
+    }
+
+@media screen and (min-width: 736px) and (max-width: 737px) {
+    @keyframes cookies {
+        100% {
+             transform: translateY(-80px);
+           }
+         }
+    }
+
+@media screen and (min-width: 734px) and (max-width: 735px) {
+@keyframes cookies {
+    100% {
+         transform: translateY(-55px);
+       }
+     }
+}
+
+@media screen and (min-width: 684px) and (max-width: 685px) {
+    @keyframes cookies {
+        100% {
+             transform: translateY(-16px);
+           }
+         }
+        }
+
+@media screen and (min-width: 667px) and (max-width: 668px) {
+    @keyframes cookies {
+        100% {
+              transform: translateY(-80px);
+             }
+            }
+         }
+        

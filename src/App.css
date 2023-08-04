@@ -48,6 +48,10 @@
   justify-content: center;
 }
 
+.aboutMe {
+  margin: 40px 40px 0px 40px;
+}
+
  .dentist   {
   margin-top:20px;
   height: 80%;
@@ -59,6 +63,8 @@
   height: 170%;
   width: 90%;
 }
+
+
 
 .appointment {
   display: flex;

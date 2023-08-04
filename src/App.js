@@ -4,13 +4,21 @@ import mail from "./img/mail.svg";
 import dentist from "./img/dentist.jpg";
 import dentistVan from "./img/dentist-van.jpg";
 import "./App.css";
+import React, { useState } from "react";
+import Bio from "./Bio";
+import PopUp from "./PopUp";
+import Checkout from "./Checkout";
 
 function App() {
+  const [popUp, setPopUp] = useState(false);
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logoPhone} className="App-logo" alt="logo" />
       </header>
+      <Checkout />
+      {popUp && <PopUp setPopUp={setPopUp} />}
       <div>
         <div className="wave">
           <div className="slogan-text">
@@ -36,6 +44,10 @@ function App() {
             </ul>
             <img src={dentistVan} className="dentistVan" alt="logo" />
           </div>
+          <div className="aboutMe">
+            <Bio />
+          </div>
+
           <div className="appointment">
             <p>
               We can meet in person, <br></br>or make a Zoom call.
@@ -54,6 +66,7 @@ function App() {
           </div>
         </div>
       </div>
+
       <footer className="footer">
         <a
           href="https://instagram.com/gianni.schultz"
