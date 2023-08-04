@@ -67,14 +67,14 @@ function Bio() {
         confrontarmi con una realtà spirituale molto più ampia e da lì inizio il
         percorso di viaggio e di scoperta personale.
       </p>
-      <a
+      <p
         className="read-more-link"
         onClick={() => {
           setReadMore(!readMore);
         }}
       >
         <h2>{linkName}</h2>
-      </a>
+      </p>
       {readMore && extraContent}
     </div>
   );
